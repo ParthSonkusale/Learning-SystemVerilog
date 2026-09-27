@@ -5,7 +5,7 @@ module student_rec;
     int    marks;
     string name;
     byte   grade;
-  } student_t;
+  } student;
 
   student S1, S2;
 
@@ -15,6 +15,13 @@ module student_rec;
 
     $display("Record of parth = %p", S1);
     $display("Record of sagar = %p", S2);
+
+    //change the grade marks of person
+    S1.id    = 6;
+    S1.marks = 67;
+    S1.grade = "D";
+
+    $display("Record of parth = %p", S1);
   end
 
 endmodule
