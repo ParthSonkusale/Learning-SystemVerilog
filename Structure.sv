@@ -9,6 +9,7 @@ person = {37 , "parth"};
 
     $display("id is %d",person.id);
     $display("name is %s",person.name);
+    $display("It display structure = %p",person);
 end
 
 endmodule
