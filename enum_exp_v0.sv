@@ -12,6 +12,7 @@ module tb_enum;
     $display("Last person     - %s", person.last().name());
     $display("Next person     - %s", person.next().name());
     $display("Previous person - %s", person.prev().name());
+    $display("Total element   - %0d", person.num());
     
   end
 endmodule
