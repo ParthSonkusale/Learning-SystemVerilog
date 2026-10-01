@@ -1,6 +1,8 @@
 module tb_enum;
   
   typedef enum {parth, deep, mrunali, harsh} persons;
+  typedef enum bit [1:2] {parth, deep, mrunali, harsh , arix} persons; //it allows only 4 elements in enum because of bit [1:2] 
+                                                                       //but we have 5 elements in enum so it will give error.
   
   initial begin
     persons person;
