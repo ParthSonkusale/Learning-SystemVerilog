@@ -20,9 +20,9 @@ module tb;
     p.addr.city = "Nagpur";
     
     $display("#-----Personal Detail-----#");
-    $display("Id : %d",p.id);
+    $display("Id : %0d",p.id);
     $display("Name : %s",p.name);
-    $display("Street no : %d",p.addr.street_no);
+    $display("Street no : %0d",p.addr.street_no);
     $display("City : %s",p.addr.city);
     
   end
